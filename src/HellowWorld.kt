@@ -8,7 +8,7 @@ init{
     private val g = gcd(Math.abs(n) ,Math.abs(d))
     val numberator: Int by lazy { n / g }
     val denominator: Int by lazy { d / g }
-    fun plus(that: Rational):Rational =
+    operator fun plus(that: Rational):Rational =
             Rational(numberator * that.denominator + that.numberator * denominator,
                     denominator * that.denominator)
 
@@ -23,6 +23,9 @@ fun main(args: Array<String>){
 //val harl = Rational(17, 17)
 //    println(harl)
     println(Rational(55,100))
-    println(Rational(1234,5678))
+    println(Rational(n = 1234, d = 5678))
 //    println("hello world")
+    println(Rational(1,4).plus(Rational(1,2)))
+    println(Rational(1,3).plus(Rational(4,7)))
+    println(Rational(1,6)+ Rational(1,3)+ Rational(1,2) )
 }
