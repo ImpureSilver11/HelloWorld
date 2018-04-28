@@ -1,6 +1,11 @@
 
 package sample
 
+/**
+ * Kotlinの
+ * 珍しい機能など
+ *
+ */
 class Rational(val n: Int, val d: Int){
 //イニシャライザ
     init{
