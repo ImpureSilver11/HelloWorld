@@ -1,16 +1,20 @@
 package sample
 class mainfun(){
     init {
-        println(succ(31).toString())
-        println(square(10).toString())
-        for (i in 3..5 step 1){
-            println(max(i,Math.abs(-i)))
-        }
-        println(sum(arrayOf(1,2,3,4,5,6,7,8,9,10)))
-
-        var cnt = Counter(4)
-        cnt.CountUp()
-        println(cnt.getCount().toString())
+//        println(succ(31).toString())
+//        println(square(10).toString())
+//        for (i in 3..5 step 1){
+//            println(max(i,Math.abs(-i)))
+//        }
+//        println(sum(arrayOf(1,2,3,4,5,6,7,8,9,10)))
+//
+//        var cnt = Counter(4)
+//        cnt.CountUp()
+//        println(cnt.getCount().toString())
+//        第1級オブジェクトとしての関数
+        println(::succ)
+        val functionObject : (Int) -> Int = ::succ
+        println(functionObject(4))
     }
     fun succ(i :Int) = i+1
     fun square(i :Int) = i*i

@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc48e12e-ab9d-40e3-bf61-a811e6a838bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BasicGrammar.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Counter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mainfun.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/META-INF/HelloWorld.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/META-INF/HelloWorld.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/sample/HellowWorldKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/sample/Rational$denominator$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/sample/Rational$denominator$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/sample/Rational$numberator$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/sample/Rational$numberator$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/sample/Rational.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/sample/Rational.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HellowWorld.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rational.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HelloWorld/sample/mainfun.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HelloWorld/sample/mainfun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainfun.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainfun.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +28,8 @@
       <file leaf-file-name="mainfun.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mainfun.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="225">
+              <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
               <folding>
                 <element signature="e#407#423#1" />
                 <element signature="n#!!doc;n#sum#1;n#!!block;n#mainfun#0" />
@@ -79,8 +70,8 @@
         <option value="$PROJECT_DIR$/src/BasicGrammar.kt" />
         <option value="$PROJECT_DIR$/src/main.kt" />
         <option value="$PROJECT_DIR$/src/basicfun.kt" />
-        <option value="$PROJECT_DIR$/src/mainfun.kt" />
         <option value="$PROJECT_DIR$/src/Counter.kt" />
+        <option value="$PROJECT_DIR$/src/mainfun.kt" />
       </list>
     </option>
   </component>
@@ -269,14 +260,14 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7911833" visible="true" weight="0.24509804" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7911833" visible="true" weight="0.24509804" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" sideWeight="0.2088167" side_tool="true" weight="0.24509804" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39888424" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39888424" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -439,8 +430,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mainfun.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="225">
+          <caret line="15" column="50" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
           <folding>
             <element signature="e#407#423#1" />
             <element signature="n#!!doc;n#sum#1;n#!!block;n#mainfun#0" />
