@@ -2,15 +2,21 @@
 package sample
 
 class Rational(val n: Int, val d: Int){
-init{
+//イニシャライザ
+    init{
     require(d!=0 ,{"denominator must not be null"})
 }
+//Math.abs,絶対値を返す
     private val g = gcd(Math.abs(n) ,Math.abs(d))
     val numberator: Int by lazy { n / g }
     val denominator: Int by lazy { d / g }
     operator fun plus(that: Rational):Rational =
             Rational(numberator * that.denominator + that.numberator * denominator,
                     denominator * that.denominator)
+    operator fun plus(n:Int) :Rational =
+            Rational(
+                    numberator + n * denominator ,denominator
+            )
 
     override fun toString(): String = "${numberator}/${denominator}"
 
@@ -18,14 +24,6 @@ init{
     tailrec private fun gcd(a: Int, b:Int): Int = if (b == 0 ) a else gcd(b,a%b)
 }
 
+operator fun Int.plus(r :Rational) : Rational = r + this
 
-fun main(args: Array<String>){
-//val harl = Rational(17, 17)
-//    println(harl)
-    println(Rational(55,100))
-    println(Rational(n = 1234, d = 5678))
-//    println("hello world")
-    println(Rational(1,4).plus(Rational(1,2)))
-    println(Rational(1,3).plus(Rational(4,7)))
-    println(Rational(1,6)+ Rational(1,3)+ Rational(1,2) )
-}
+
